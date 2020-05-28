@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding="ISO-8859-1"?>
+<array>
+    <categorias>
+        <curso>
+            <Titulo> "Muay Thai" </Titulo>
+            <Conteudo> "O Muay Thai é uma arte marcial de origem Tailândesa,
+                considerada por muitos violenta, pois envolve todas as
+                partes do corpo e quase tudo é permitido." </Conteudo>
+        </curso>
+
+        <curso>
+            <Titulo> "MMA" </Titulo>
+            <Conteudo> "O nome MMA vem do inglês Mixed Martial Arts que significa 
+                Artes Marciais Mistas, popularmente ela também é conhecida como 'vale tudo'." </Conteudo>
+        </curso>
+
+        <curso>
+            <Titulo> "Kick Boxing" </Titulo>
+            <Conteudo> "O Kickboxing é um tipo de luta que mistura técnicas de 
+                algumas artes marciais com boxe, envolvendo todas as partes do corpo." </Conteudo>
+        </curso>
+
+        <curso>
+            <Titulo> "Krav Maga" </Titulo>
+            <Conteudo> "O Krav Maga é uma técnica que teve origem em Israel,
+                e o seu principal foco consiste em usar o próprio corpo para 
+                defesa em qualquer situação de perigo." </Conteudo>
+        </curso>
+
+        <curso>
+            <Titulo> "TaekWondo" </Titulo>
+            <Conteudo> "O Taekwondo é uma arte marcial de origem coreana,
+            que utiliza maioritariamente as pernas, conferindo muita agilidade e força ao corpo." </Conteudo>
+        </curso>
+
+        <curso>
+            <Titulo> "Jiu - Jitsu" </Titulo>
+            <Conteudo> "O Jiu-Jitsu é uma arte marcial Japonesa, que utiliza golpes em forma de alavanca,
+            pressões e torções para derrubar o oponente,
+            sendo o seu principal objetivo derrubar e dominar o adversário." </Conteudo>
+        </curso>
+    </categorias>
+</array>

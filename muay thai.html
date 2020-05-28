@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <title> Muay Thai </title>
+    <link rel="stylesheet" type="text/css" href="style-modalidades.css" media="screen" />
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <!-- Topo da tela -->
+
+    <header>
+        <h3 class="text-left" style="color:black;
+						font-family:algerian;
+						font-size:82px;
+						font-style:italic;
+						position: relative;
+						left: 835px;
+						bottom: 98px;
+						"> M & C Artes Marciais </h3>
+        <img src="img/simbolo japones.png" style="width: 180px; position: relative; bottom: 480px; left: 585px;">
+    </header>
+
+    <!-- Tópicos de navegação canto esquerdo da tela -->
+
+    <nav class="sidebar-left">
+        <ul>
+            <li> <a href="index.html"> INICIO </a> </li>
+            <li> <a href="polos.html"> POLOS </a> </li>
+            <li> <a href="sobre.html"> SOBRE NÓS </a> </li>
+        </ul>
+    </nav>
+
+    <!-- Modalidades canto direito da tela -->
+
+    <ul class="sidebar-right">
+        <h4> CURSOS </h4>
+        <!-- <li class="pizza">
+			<a href="muay thai.html"> <img src="img/muay thai.jpg">Muay Thai </a>
+		</li> -->
+
+        <li class="pizza">
+            <a href="mma.html"> <img src="img/mma.jpg"> MMA </a>
+        </li>
+
+        <li class="pizza">
+            <a href="kickboxing.html"> <img src="img/kickboxing.jpg"> KickBoxing </a>
+        </li>
+
+        <li class="pizza">
+            <a href="krav maga.html"> <img src="img/kravmaga.jpg"> Krav Maga </a>
+        </li>
+
+        <li class="pizza">
+            <a href="taekwondo.html"> <img src="img/TAEKWONDO.jpg"> Taekwondo </a>
+        </li>
+
+        <li class="pizza">
+            <a href="jiu jitsu.html"> <img src="img/jiujitsu.jpg"> Jiu-Jitsu </a>
+        </li>
+    </ul>
+
+    <!-- Textos Central -->
+
+    <div style="margin-left:15%;padding:1px 16px;height:753px;">
+        <section class="text-one">
+            <h2>Curso 1 - Muay Thai</h2>
+            <img class="person" src="img/muay thai.jpg">
+            <p style="position: relative; left: 316px; bottom: 250px; width: 475px;">
+                Preço mensal de todos os cursos: R$ 100,00 reais. <br />
+                <br /> O Muay Thai é uma arte marcial de origem Tailândesa,</br>
+                considerada por muitos violenta, pois envolve todas as </br>
+                partes do corpo e quase tudo é permitido. Como esta arte </br>
+                marcial se foca no aperfeiçoamento dos socos, chutes, </br>
+                caneladas, joelhadas e cotoveladas, ela proporciona uma </br>
+                grande tonificação e desenvolvimento muscular e aumento </br>
+                da flexibilidade e força de todo o corpo, e ainda ajuda </br>
+                a emagrecer pois os treinos são intensos e exigentes </br>
+                para o corpo.
+            </p>
+        </section>
+
+        <!--Dados pessoais-->
+
+        <section class="text-two">
+            <form action="final.php" method="post" style="margin-bottom: 0px;">
+                <h4 style="position: relative; left: 210px;">Dados Pessoais para comprar curso(s)</h4>
+
+                <h5>Digite seu nome completo:</h5>
+                <input type="textArea" size="50px" maxlength="40" name="Nome" value="" id="nome">
+
+                <h5>Sexo</h5>
+                <p class="fema">F</p>
+                <p class="masc">M</p>
+                <input style="position: relative; bottom: 65px;" type="radio" name="sexo" value="f" checked>
+                <input style="position: relative; bottom: 63px;" type="radio" name="sexo" value="m">
+
+                <h5 class="cursos">Quais cursos você deseja comprar:</h5>
+                <input class="muayThai" type="checkbox" name="muay" value="1">
+                <p class="Pmuay">Muay thai</p>
+                <input class="mma" type="checkbox" name="mma" value="1">
+                <p class="Pmma">MMA</p>
+                <input class="box" type="checkbox" name="kick" value="1">
+                <p class="Pbox">Kick Boxing</p>
+                <input class="krav" type="checkbox" name="krav" value="1">
+                <p class="Pkrav">Krav Maga</p>
+                <input class="taekwondo" type="checkbox" name="taek" value="1">
+                <p class="Ptae">Taekwondo</p>
+                <input class="jiu" type="checkbox" name="jiu" value="1">
+                <p class="Pjiu">Jiu-Jitsu</p>
+
+                <input style="position: relative; bottom: 218px; left: 700px;" type="reset" name="resetar" value="Resetar">
+
+                <input style="position: absolute; top: 1200px; left: 570px;" type="submit" name="submeter" value="Continuar">
+            </form>
+
+        </section>
+
+        <!-- Rodapé da página -->
+
+        <footer>
+            <div class="botao-home">
+                <a href="index.html"> <img height="140px" width="140px" src="img/topo.png"> </a>
+            </div>
+            <h4> Conheça nossas redes sociais </h4>
+            <ul>
+                <a href="https://www.facebook.com/"> <img src="img/facebook.png"> </ul>
+
+            <ul>
+                <a href="https://instagram.com/"> <img src="img/instagram.png"> </ul>
+
+            <ul>
+                <a href="https://whatsapp.com/"> <img src="img/Whatsapp.png"> </ul>
+
+            <ul>
+                <a href="htpps://twitter.com/"> <img src="img/twitter.png"></ul>
+
+            <p>Av. União dos Ferroviários, 1760 - Centro, Jundiaí - SP, 13201-160</p>
+            <p>(11) 4522-7549</p>
+        </footer>
+</body>
+
+</html>
