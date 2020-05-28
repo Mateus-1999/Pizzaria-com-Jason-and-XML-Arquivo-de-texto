@@ -1,0 +1,26 @@
+[{
+        "Titulo": "Muay Thai",
+        "Imagem": "img/muay thai.jpg"
+    },
+    {
+        "Titulo": "MMA",
+        "Imagem": "img/mma.jpg"
+    },
+    {
+        "Titulo": "KickBoxing",
+        "Imagem": "img/kickboxing.jpg"
+    },
+    {
+        "Titulo": "Krav Maga",
+        "Imagem": "img/kravmaga.jpg"
+    },
+    {
+        "Titulo": "Taekwondo",
+        "Imagem": "img/taekwondo.jpg"
+    },
+    {
+        "Titulo": "Jiu - Jitsu",
+        "Imagem": "img/jiujitsu.jpg"
+    }
+
+]
